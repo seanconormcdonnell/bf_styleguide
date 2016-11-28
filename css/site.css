@@ -1,0 +1,165 @@
+* {
+	font-family: 'Lato', sans-serif;
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline:none;
+}
+
+.colors{
+  width: 100%;
+  height: auto;
+  padding: 20px 80px;
+  display: inline-block;;
+  background-color: rgba(60,60,60,1);
+}
+
+.swatches{
+  display: inline-block;
+  float: left;
+}
+
+.buttons{
+  display: inline-block;
+  width: 400px;
+  margin: 50px;
+}
+
+.backgrounds{
+  width: 100%;
+  height: auto;
+  padding: 20px 80px;
+  display: block;
+  background-color: rgba(60,60,60,1);
+}
+
+.heading{
+  padding:20px 80px;
+}
+
+.swatch{
+  width: 200px;
+  padding: 40px;
+  height: 200px;
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+}
+/*.swatch:first-child{
+  width: 97%;
+}*/
+
+.half-swatch{
+  width: 200px;
+  padding: 40px;
+  height: 100px;
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+}
+
+.call-to-action-1 {
+  background-color: transparent;
+  border: 4px solid #fbd045;
+  border-radius: 8px;
+  padding: .5em 1.5em;
+  font-size: 1.5em;
+  color: #fbd045;
+}
+
+.call-to-action-1:hover {
+  background-color: #fbd045;
+  color:#f0f0f0;
+}
+
+.call-to-action-2 {
+  background-color: transparent;
+  border: 4px solid #f17105;
+  border-radius: 8px;
+  padding: .5em 1.5em;
+  font-size: 1.5em;
+  color: #f17105;
+}
+
+.call-to-action-2:hover{
+  background-color: #f17105;
+  color:#f0f0f0;
+}
+
+.input-1::-webkit-input-placeholder{
+    color:rgba(240,240,240,.5);
+}
+.input-1{
+  width: 200px;
+  height: 40px;
+  background: transparent;
+  border-bottom: 4px solid #fbd045;
+  font-size: 1.5em;
+  color: #fbd045;
+}
+
+.input-2::-webkit-input-placeholder{
+    color:rgba(240,240,240,.5);
+}
+.input-2{
+  width: 200px;
+  height: 40px;
+  background: transparent;
+  border-bottom: 4px solid #f17105;
+  font-size: 1.5em;
+  color: #f17105;
+}
+
+.ok-1{
+  background-color: #3bb273;
+  padding: .5em 1.5em;
+  font-size: 1em;
+  color: #f0f0f0;
+  margin-right: 10px;
+}
+
+.ok-2{
+  background-color: #275dff;
+  padding: .5em 1.5em;
+  font-size: 1em;
+  color: #f0f0f0;
+  margin-right: 10px;
+}
+
+.icon-1{
+  font-size: 1.5em;
+  color:#039cda;
+  padding: 10px;
+}
+
+.icon-2{
+  font-size: 1.5em;
+  color:#0CBABA;
+  padding: 10px;
+}
+
+.orange{
+  background-color: #fbd045;
+}
+
+.green{
+  background-color: #3bb273;
+}
+
+.blue{
+  background-color: #039cda;
+}
+
+.dark{
+  background-color: #3c3c3c;
+}
+
+.mid{
+  background-color: #a7a7a7;
+}
+
+.light{
+  background-color: #f0f0f0;
+}

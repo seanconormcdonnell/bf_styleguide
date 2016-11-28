@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Style Guide for Brushfire</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+  <link href="css/site.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <h1 class="heading">Colors 1</h1>
+  <section class="colors 1">
+    <div class="swatches">
+      <div class="half-swatch dark" onclick="changeBGC('#3c3c3c')">
+        <h2>#3c3c3c</h2>
+      </div>
+      <div class="half-swatch mid" onclick="changeBGC('#a7a7a7')">
+        <h2>#a7a7a7</h2>
+      </div>
+      <div class="half-swatch light" onclick="changeBGC('#f0f0f0')">
+        <h2>#f0f0f0</h2>
+      </div><br/>
+      <div class="swatch orange">
+        <h2>#fbd045</h2>
+      </div>
+      <div class="swatch green">
+        <h2>#3bb273</h2>
+      </div>
+      <div class="swatch blue">
+        <h2>#039cda</h2>
+      </div>
+    </div><!--
+    --><div class="buttons">
+      <button class="call-to-action-1">Call to Action</button><br/><br/>
+      <input type="text" placeholder="Name" class="input-1"/><br/><br/>
+      <button class="ok-1">OK</button><button class="ok-1">NOPE</button><br/><br/>
+        <i class="fa fa-check icon-1" aria-hidden="true"></i>
+        <i class="fa fa-times icon-1" aria-hidden="true"></i>
+    </div>
+  </div>
+  </section>
+  <h1 class="heading">Colors 2</h1>
+  <section class="colors 2">
+    <div class="swatches">
+      <div class="half-swatch dark" onclick="changeBGC('#3c3c3c')">
+        <h2>#3c3c3c</h2>
+      </div>
+      <div class="half-swatch mid" onclick="changeBGC('#a7a7a7')">
+        <h2>#a7a7a7</h2>
+      </div>
+      <div class="half-swatch light" onclick="changeBGC('#f0f0f0')">
+        <h2>#f0f0f0</h2>
+      </div><br/>
+      <div class="swatch" style="background-color:#f17105">
+        <h2>#f17105</h2>
+      </div>
+      <div class="swatch" style="background-color:#275dff">
+        <h2>#275dff</h2>
+      </div>
+      <div class="swatch" style="background-color:#0CBABA">
+        <h2>#0CBABA</h2>
+      </div>
+    </div>
+    <div class="buttons 2">
+      <button class="call-to-action-2">Call to Action</button><br/><br/>
+      <input type="text" placeholder="Name" class="input-2"/><br/><br/>
+      <button class="ok-2">OK</button><button class="ok-2">NOPE</button><br/><br/>
+        <i class="fa fa-check icon-2" aria-hidden="true"></i>
+        <i class="fa fa-times icon-2" aria-hidden="true"></i>
+    </div>
+  </section>
+</body>
+<script type="text/javascript">
+  function changeBGC(x){
+    console.log("changeBGC fired, x = "+x );
+    // $(".backgrounds").css("background-color",x);
+    $(".colors").css("background-color",x);
+  }
+
+  $('.swatch').click(function (){
+    $('.swatch').css("width","200px");
+    $( this ).css("width","97%");
+  });
+
+
+</script>
+</html>
